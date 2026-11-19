@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/南京林业大学-人工智能-1D4ED8?style=for-the-badge" alt="Nanjing Forestry University"/>
   <img src="https://img.shields.io/badge/Focus-Backend%20%26%20Agent%20Engineering-0F766E?style=for-the-badge" alt="focus"/>
   <img src="https://img.shields.io/badge/Status-Open%20to%20Internships-F59E0B?style=for-the-badge" alt="status"/>
+  <img src="https://komarev.com/ghpvc/?username=Tim051216&label=Profile%20views&color=1D4ED8&style=for-the-badge" alt="Profile views"/>
 </p>
 
 ## 👋 About me
@@ -88,6 +89,12 @@
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Tim051216&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub stats"/>
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tim051216&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages"/>
 </p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Tim051216&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+</p>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Tim051216&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph"/>
 
 ## 🌱 Now learning
 
