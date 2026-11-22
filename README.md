@@ -49,7 +49,7 @@
 
 ## 🚀 Featured work
 
-### BiliLearn · Multi-Agent Learning Platform
+### [BiliLearn](https://github.com/Tim051216/BiliLearn) · Multi-Agent Learning Platform
 
 面向在线智能教育场景的多 Agent 学习平台，使用 LangGraph 编排知识库问答、工具调用和学习流程。
 
@@ -78,6 +78,7 @@
 
 | Project | Focus |
 | --- | --- |
+| [BiliLearn](https://github.com/Tim051216/BiliLearn) | Multi-Agent 个性化学习平台 |
 | [Liftoff](https://github.com/Tim051216/liftoff) | AI-powered mock interview simulator |
 | [Liftoff-interview](https://github.com/Tim051216/Liftoff-interview) | Java 在线编程与面试准备平台 |
 | [A3-portal-web](https://github.com/Tim051216/A3-portal-web) | TypeScript Web 门户应用 |
