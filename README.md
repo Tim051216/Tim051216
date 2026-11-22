@@ -19,6 +19,10 @@
 
 我关注的不只是“能跑起来”，也关注鉴权安全、流程一致性、并发治理、可观测性、检索质量和 Agent 执行边界。
 
+## 🎓 Education
+
+**南京林业大学（双一流） · 人工智能本科 · 2024.09 — 2028.09**
+
 ## 🧰 Engineering toolkit
 
 <p align="center">
@@ -26,32 +30,33 @@
 </p>
 
 **Backend** · Java · Spring Boot · Spring Cloud · MyBatis-Plus · Sa-Token · Flowable<br>
-**Data & Middleware** · MySQL · PostgreSQL · Oracle · Redis · RabbitMQ · Redisson · MinIO<br>
-**AI Engineering** · LangChain · LangGraph · MCP · RAG · ReAct · RAGAS · Dify<br>
-**Delivery & Observability** · Linux · Docker · Alibaba Cloud ECS · OpenTelemetry · XXL-Job
+**Data & Middleware** · MySQL · PostgreSQL · Oracle · Redis · RocketMQ · RabbitMQ · Redisson · MinIO<br>
+**AI Engineering** · LangChain · LangGraph · MCP · RAG · ReAct · RAGAS · Dify · Harness Engineering<br>
+**Delivery & Observability** · Linux · Docker · Alibaba Cloud ECS · OpenTelemetry · Sentinel · XXL-Job
 
 ## 💼 Experience
 
 **Backend Developer Intern · 苏宁易购｜苏宁云财 · 2026.07 — 2026.09**
 
 - 参与业财一体化智能财务平台后端开发，覆盖票据 OCR、规则制证、凭证审批、月末结账、财务报表与电子档案等核心链路。
-- 基于 Sa-Token + JWT + Redis 建设统一认证与多公司 RBAC 权限模型；1000 次并发鉴权压测成功率 **100%**，P95 耗时 **48 ms**。
-- 为 OCR 链路设计 IP 白名单、HMAC-SHA256、Timestamp/Nonce 与 AES-GCM 安全机制，并通过 OpenTelemetry 建立审计与追踪链路；P95 额外开销 **5.1 ms**。
-- 使用 Flowable BPMN 重构凭证审批流程；500 张凭证批量审批耗时 **4.2 s**、吞吐量 **119 条/s**，业务与流程状态一致率 **100%**。
-- 通过 CompletableFuture、Redisson 分布式锁和有界线程池治理批处理与文件并发；5000 张凭证级联清理耗时降低 **40.8%**，100 个 1 MB 文件上传耗时降低 **64.8%**。
+- 基于 Sa-Token + JWT + Redis 建设统一认证与多公司 RBAC 权限模型，以 `appCode` 区分业务系统、`companyId` 隔离租户。
+- 为 OCR 链路设计 IP 白名单、HMAC-SHA256、Timestamp/Nonce 与 AES-GCM 安全机制，并通过 OpenTelemetry 建立审计与追踪链路；1000 次请求压测下 P95 额外开销仅 **5.1 ms**。
+- 使用 RocketMQ + MinIO 解耦文件、OCR 与财务服务，构建“上传—识别—入库—制证”异步流水线；1000 张票据压测下接口 P95 从 **1.86 s 降至 72 ms**，成功率 **99.8%**、重复制证率 **0%**。
+- 使用 Flowable BPMN 将硬编码审批状态迁移为可配置流程，覆盖提交、审核、反审核、驳回和重提五类动作。
+- 通过 CompletableFuture、Redisson 分布式锁和有界线程池治理批处理与文件并发；5000 张凭证级联清理从 **4.9 s 降至 2.9 s（40.8%）**，100 个并发月结请求仅一个进入临界区。
 
 **Backend Developer Intern · 中科安芯（江苏）有限公司 · 2026.02 — 2026.04**
 
 - 在企业级 SaaS 微服务平台中参与网关、系统管理、数据中心、IoT、CRM 与 ERP 模块开发。
 - 针对元数据采集等 IO 密集任务设计专属 `ThreadPoolTaskExecutor` 线程池；96 个 JDBC 任务压测下平均耗时从 **477 ms 降至 299 ms（37.2%）**。
 - 参与 Vue3 + TypeScript + Vite + Element Plus 管理端联调，打通动态路由、权限加载与菜单渲染链路。
-- 设计分层登录安全方案：BCrypt 密码校验、OAuth2 access/refresh 双令牌，以及可选 AES 传输加密。
+- 设计分层登录安全方案：BCrypt 密码校验、OAuth2 access/refresh 双令牌、Redis 登录态、网关统一鉴权、Spring Security + RBAC 权限控制及 AES 传输加密。
 
 ## 🚀 Featured work
 
 ### [BiliLearn](https://github.com/Tim051216/BiliLearn) · Multi-Agent Learning Platform
 
-面向在线智能教育场景的多 Agent 学习平台，使用 LangGraph 编排知识库问答、工具调用和学习流程。
+面向高校在线学习场景，由学习画像、知识检索与答疑、学习规划、资源生成、测评反馈五类智能体协同驱动的个性化学习平台。
 
 <p>
   <img src="https://img.shields.io/badge/LangChain%20%2B%20LangGraph-Agent%20Orchestration-1D4ED8?style=flat-square" alt="LangGraph"/>
@@ -59,12 +64,12 @@
   <img src="https://img.shields.io/badge/RAGAS-Automated%20Evaluation-7C3AED?style=flat-square" alt="RAGAS"/>
 </p>
 
-- Redis 信号量 + ZSET + Pub/Sub + Lua 实现分布式公平排队限流，并通过 SSE 实时推送队列状态。
-- MD5 精确缓存与 RedisStack HNSW 语义缓存复用检索结果；多模型路由、熔断降级与全链路追踪提升并发可用性。
-- 采用多实例分布式架构完成文档入库、切片和向量写入，通过 MySQL 悲观行锁实现任务抢占，避免多节点重复解析与向量化。
-- 设计意图定向 + 全局向量双路召回，Top-1 召回命中率提升 **28.5%**，知识检索综合准确率达到 **85%+**。
-- 构建分层意图识别、ReAct 多轮 Agent、UID 会话隔离和三层执行安全边界，意图 Top-1 准确率 **90%+**。
-- 建立覆盖检索、延迟、生成质量的 RAGAS 评测体系，忠实度提升 **10.3%**，答案相关性提升 **8.0%**。
+- 基于 Redisson 分布式限流器和 Redis + Lua 令牌桶按用户、模型维度管控配额，以信号量约束推理并发；RocketMQ 削峰排队，结合 vLLM、Sentinel、多模型路由与全链路追踪提升高并发可用性。
+- 以 MD5 精确缓存 + RedisStack HNSW 语义缓存复用检索结果，降低重复向量计算开销。
+- 采用数据库任务表轮询与事务原子抢占实现多实例分布式消费，完成文档解析、切片和向量入库，避免重复解析与向量化。
+- 设计意图定向 + 全局向量双路召回和检索后置治理，Top-1 召回命中率提升 **28.5%**、上下文精准度提升 **20.5%**，知识检索综合准确率达到 **85%+**。
+- 构建分层意图识别、ReAct 多轮 Agent、UID 会话隔离、对话摘要和三层执行安全边界，意图 Top-1 准确率 **90%+**。
+- 建立覆盖检索性能、响应延迟和生成质量 20 余项指标的 RAGAS 评测体系，忠实度提升 **10.3%**，答案相关性提升 **8.0%**。
 
 ### [七云菜馆](https://github.com/Tim051216/qiyun-restaurant) · AI-enabled Restaurant System
 
