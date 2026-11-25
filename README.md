@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,55:0F766E,100:14B8A6&height=150&section=header&text=Han%20Shenghao&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Backend%20Engineering%20%C3%97%20Agent%20Systems&descSize=16&descAlignY=68" alt="Han Shenghao — Backend Engineering × Agent Systems" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&amp;color=0:38BDF8,55:7DD3FC,100:BAE6FD&amp;height=150&amp;section=header&amp;text=Han%20Shenghao&amp;fontColor=082F49&amp;fontSize=42&amp;fontAlignY=38&amp;desc=Backend%20Engineering%20%C3%97%20Agent%20Systems&amp;descSize=16&amp;descAlignY=68" alt="Han Shenghao — Backend Engineering × Agent Systems" />
 
 <p align="center">
   <img width="520" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=19&amp;pause=1800&amp;color=14B8A6&amp;center=true&amp;vCenter=true&amp;width=520&amp;height=38&amp;lines=Backend+%26+Agent+Engineering;Java+%2F+Spring+Cloud+%2F+LangGraph" alt="Backend and Agent Engineering · Java · Spring Cloud · LangGraph" />
