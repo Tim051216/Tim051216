@@ -31,6 +31,12 @@
   <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Linux-Dark.svg" alt="Linux" title="Linux" />
 </p>
 
+## 👋 About Me
+
+你好，我是 **韩盛豪**，南京林业大学人工智能专业本科生，预计 **2028 年 9 月**毕业，正在寻找后端开发或 Agent 工程实习机会。
+
+我用 Java 和 Spring Cloud 做过财务平台和企业级 SaaS 的后端开发，主要处理异步任务、并发和权限隔离。我也用 LangGraph 构建过多 Agent 学习平台，并用 RAGAS 评估检索和回答质量。
+
 ## 💼 实习经历
 
 ### 苏宁易购｜苏宁云财 · 后端开发实习生
@@ -79,12 +85,6 @@
 - 通过原子预扣减与 RabbitMQ 异步下单，将接口平均耗时从 **497.36 ms 降至 155.66 ms（68.7%）**，配合 ACK、幂等、重试与对账保障一致性。
 
 <p align="right"><a href="https://github.com/Tim051216?tab=repositories">Explore all projects →</a></p>
-
-## 👋 关于我
-
-我是 **韩盛豪**，南京林业大学人工智能专业本科生，专注于 **后端工程** 与 **Agent 系统**。
-
-预计 **2028 年 9 月**毕业，目前正在寻找后端开发或 Agent 开发实习。
 
 ## 🧰 Toolbox
 
