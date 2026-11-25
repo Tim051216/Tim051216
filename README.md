@@ -49,11 +49,13 @@
 - **元数据采集** · 使用 XXL-Job 调度异构数据源的采集任务，通过专用线程池和有界队列并行处理 JDBC I/O。96 个任务的平均耗时从 **477 ms 降至 299 ms（37.2%）**。
 - **登录与权限** · 参与 BCrypt、OAuth2 双令牌、Redis 登录态以及网关统一鉴权建设，并配合 Vue 3 管理端联调动态路由、权限加载和菜单渲染。
 
-## 👋 关于我
+## 🌱 开源经历
 
-我是 **韩盛豪**，南京林业大学人工智能专业本科生，专注于 **后端工程** 与 **Agent 系统**。
+参与 Agent 框架的代码审阅与 Issue 讨论，近期关注运行时行为和模型缓存。
 
-预计 **2028 年 9 月**毕业，目前正在寻找后端开发或 Agent 开发实习。
+- [![Google ADK](https://img.shields.io/badge/google%2Fadk--python-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/google/adk-python/pull/8328#pullrequestreview-6049705342) 审阅 Live 模式请求配置的深拷贝修复。
+- [![Pydantic AI](https://img.shields.io/badge/pydantic%2Fpydantic--ai-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://github.com/pydantic/pydantic-ai/issues/14545#issuecomment-7161505358) 参与子 Agent 启动顺序与提示词缓存复用的讨论。
+- [![Strands Harness SDK](https://img.shields.io/badge/strands--agents%2Fharness--sdk-7C3AED?style=flat-square)](https://github.com/strands-agents/harness-sdk/issues/6394#issuecomment-7148207860) 参与摘要回放时的模型选择与缓存命中问题讨论。
 
 ## 🚀 个人项目
 
@@ -78,18 +80,11 @@
 
 <p align="right"><a href="https://github.com/Tim051216?tab=repositories">Explore all projects →</a></p>
 
-## 🌱 Open source, lately
+## 👋 关于我
 
-最近在 Agent 工程生态中参与 issue 讨论、代码审阅与贡献，重点关注 typed outputs、工具调用、执行可靠性和开发者体验。
+我是 **韩盛豪**，南京林业大学人工智能专业本科生，专注于 **后端工程** 与 **Agent 系统**。
 
-<p>
-  <a href="https://github.com/google/adk-python"><img src="https://img.shields.io/badge/google%2Fadk--python-4285F4?style=flat-square&logo=google&logoColor=white" alt="google/adk-python" /></a>
-  <a href="https://github.com/pydantic/pydantic-ai"><img src="https://img.shields.io/badge/pydantic%2Fpydantic--ai-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="pydantic/pydantic-ai" /></a>
-  <a href="https://github.com/microsoft/autogen"><img src="https://img.shields.io/badge/microsoft%2Fautogen-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" alt="microsoft/autogen" /></a>
-  <a href="https://github.com/strands-agents/harness-sdk"><img src="https://img.shields.io/badge/strands--agents%2Fharness--sdk-7C3AED?style=flat-square" alt="strands-agents/harness-sdk" /></a>
-</p>
-
-<p><a href="https://github.com/Tim051216?tab=activity">View public activity →</a></p>
+预计 **2028 年 9 月**毕业，目前正在寻找后端开发或 Agent 开发实习。
 
 ## 🧰 Toolbox
 
