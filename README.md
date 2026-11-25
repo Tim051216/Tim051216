@@ -31,18 +31,31 @@
   <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Linux-Dark.svg" alt="Linux" title="Linux" />
 </p>
 
-## Hello / 你好 👋
+## 💼 实习经历
+
+### 苏宁易购｜苏宁云财 · 后端开发实习生
+
+**2026.08–2026.10** · 参与智能财务平台后端开发，覆盖票据 OCR、凭证审批和月末结账。
+
+- **异步票据处理** · 基于 RocketMQ 和 MinIO 串联上传、识别、入库和制证，使用幂等消费、重试和死信队列保障最终一致性。1,000 张票据压测中，接口 P95 从 **1.86 s 降至 72 ms**，吞吐量达 **18.5 张/s**，处理成功率为 **99.8%**。
+- **凭证清理与月结并发** · 使用 CompletableFuture 并行清理，配合 Redisson 分布式锁控制月结并发。清理 5,000 张凭证及 35,000 条关联数据的平均耗时从 **3,348 ms 降至 2,708 ms**。
+- **OCR 安全与可观测性** · 实现请求签名、重放防护、传输加密和 OpenTelemetry 审计追踪，安全审计链路的 P95 增量为 **1.94 ms**。
+- **认证与审批** · 参与 Sa-Token、JWT 和 Redis 统一认证及多公司 RBAC 建设，并用 Flowable BPMN 将凭证审批重构为可配置流程。
+
+### 中科安芯（江苏）有限公司 · 后端开发实习生
+
+**2026.02–2026.04** · 参与企业级 SaaS 微服务平台开发，涉及网关、数据中心、IoT、CRM 和 ERP 等模块。
+
+- **元数据采集** · 使用 XXL-Job 调度异构数据源的采集任务，通过专用线程池和有界队列并行处理 JDBC I/O。96 个任务的平均耗时从 **477 ms 降至 299 ms（37.2%）**。
+- **登录与权限** · 参与 BCrypt、OAuth2 双令牌、Redis 登录态以及网关统一鉴权建设，并配合 Vue 3 管理端联调动态路由、权限加载和菜单渲染。
+
+## 👋 关于我
 
 我是 **韩盛豪**，南京林业大学人工智能专业本科生，专注于 **后端工程** 与 **Agent 系统**。
 
-我喜欢把“不稳定的 Demo”推向可交付的工程系统：为后端服务补齐并发治理、数据一致性和可观测性，也为 Agent 建立检索评测、执行边界和故障降级。曾参与智能财务平台与企业级 SaaS 平台后端开发，目前正在寻找后端开发 / Agent 开发实习机会。
+预计 **2028 年 9 月**毕业，目前正在寻找后端开发或 Agent 开发实习。
 
-| What I build | What I care about |
-| --- | --- |
-| Java / Spring Cloud 微服务、异步任务与高并发链路 | 性能、可靠性、鉴权安全与可观测性 |
-| LangGraph / MCP / RAG 驱动的多 Agent 系统 | 可控执行、检索质量、自动评测与降级策略 |
-
-## 🚀 Selected work
+## 🚀 个人项目
 
 ### [BiliLearn](https://github.com/Tim051216/BiliLearn) — Multi-Agent Learning Platform
 
@@ -50,9 +63,9 @@
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-0F766E?style=flat-square&logo=langgraph&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-334155?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-334155?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-A91E32?style=flat-square&logo=redis&logoColor=white) ![RocketMQ](https://img.shields.io/badge/RocketMQ-9A3412?style=flat-square) ![RAGAS](https://img.shields.io/badge/RAGAS-6D28D9?style=flat-square)
 
-- 设计意图定向 + 全局向量双路召回与检索后置治理，Top-1 召回命中率提升 **28.5%**，知识检索综合准确率达到 **85%+**。
-- 构建分层意图识别、ReAct 多轮 Agent、UID 会话隔离和三层执行安全边界，意图 Top-1 准确率达到 **90%+**。
-- 建立覆盖检索、延迟和生成质量的自动评测体系，忠实度提升 **10.3%**、答案相关性提升 **8.0%**。
+- 使用 BM25 与 Dense 双路召回，经 RRF 融合和 Reranker 精排。相较于单路稠密检索基线，Top-1 命中率提升 **28.5%**，信息密度提升 **20.5%**，端到端准确率达 **85%+**。
+- 用分层意图树识别问答、工具调用和系统指令，对低置信度请求发起澄清，意图 Top-1 准确率为 **90%**。在 ReAct 多轮执行中限制步数，并对可重试错误使用指数退避。
+- 用 RAGAS 对单跳、多跳、拒答及时效样本分层评测，结合多版本 A/B 对比定位检索与生成问题，忠实度提升 **10.3%**，答案相关性提升 **8.0%**。
 
 ### [七云菜馆](https://github.com/Tim051216/qiyun-restaurant) — Distributed Restaurant System
 
@@ -78,34 +91,11 @@
 
 <p><a href="https://github.com/Tim051216?tab=activity">View public activity →</a></p>
 
-## 💼 Experience
-
-<details>
-<summary><strong>Backend Developer Intern · 苏宁易购｜苏宁云财</strong> · 2026.07 — 2026.09</summary>
-<br />
-
-- 参与业财一体化智能财务平台后端开发，覆盖票据 OCR、规则制证、凭证审批、月末结账、财务报表与电子档案等核心链路。
-- 使用 RocketMQ + MinIO 构建“上传—识别—入库—制证”异步流水线；1000 张票据压测下接口 P95 从 **1.86 s 降至 72 ms**，成功率 **99.8%**、重复制证率 **0%**。
-- 通过 CompletableFuture、Redisson 分布式锁和有界线程池治理并发；5000 张凭证级联清理从 **4.9 s 降至 2.9 s（40.8%）**。
-- 以 Sa-Token + JWT + Redis 建设统一认证和多公司 RBAC，并为 OCR 链路补齐 HMAC-SHA256、AES-GCM、重放防护与 OpenTelemetry 审计追踪。
-
-</details>
-
-<details>
-<summary><strong>Backend Developer Intern · 中科安芯（江苏）有限公司</strong> · 2026.02 — 2026.04</summary>
-<br />
-
-- 参与企业级 SaaS 微服务平台的网关、系统管理、数据中心、IoT、CRM 与 ERP 模块开发。
-- 为元数据采集等 IO 密集任务设计专属线程池；96 个 JDBC 任务压测下平均耗时从 **477 ms 降至 299 ms（37.2%）**。
-- 参与 Vue 3 管理端联调，并设计覆盖 BCrypt、OAuth2 双令牌、Redis 登录态、网关鉴权与 RBAC 的分层登录安全方案。
-
-</details>
-
 ## 🧰 Toolbox
 
 **Backend** · Java · Spring Boot · Spring Cloud · MyBatis-Plus · Sa-Token · Flowable<br />
 **Data & Middleware** · MySQL · PostgreSQL · Redis · RocketMQ · RabbitMQ · Redisson · MinIO<br />
-**AI Engineering** · LangChain · LangGraph · MCP · RAG · ReAct · RAGAS · Dify<br />
+**AI Engineering** · Agent Runtime · Harness · LangChain · LangGraph · MCP · RAG · ReAct · RAGAS<br />
 **Delivery & Observability** · Linux · Docker · OpenTelemetry · Sentinel · XXL-Job
 
 ## 📈 GitHub snapshot
