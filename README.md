@@ -12,6 +12,25 @@
   <img src="https://komarev.com/ghpvc/?username=Tim051216&amp;label=Profile%20views&amp;color=0F766E&amp;style=flat-square" alt="Profile views" />
 </p>
 
+<p align="center">
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Java-Dark.svg" alt="Java" title="Java" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Spring-Dark.svg" alt="Spring" title="Spring" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Python-Dark.svg" alt="Python" title="Python" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/FastAPI.svg" alt="FastAPI" title="FastAPI" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/TypeScript.svg" alt="TypeScript" title="TypeScript" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/VueJS-Dark.svg" alt="Vue" title="Vue" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/React-Dark.svg" alt="React" title="React" />
+</p>
+
+<p align="center">
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/MySQL-Dark.svg" alt="MySQL" title="MySQL" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/PostgreSQL-Dark.svg" alt="PostgreSQL" title="PostgreSQL" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Redis-Dark.svg" alt="Redis" title="Redis" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/RabbitMQ-Dark.svg" alt="RabbitMQ" title="RabbitMQ" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Docker.svg" alt="Docker" title="Docker" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Linux-Dark.svg" alt="Linux" title="Linux" />
+</p>
+
 ## Hello / 你好 👋
 
 我是 **韩盛豪**，南京林业大学人工智能专业本科生，专注于 **后端工程** 与 **Agent 系统**。
@@ -83,26 +102,6 @@
 </details>
 
 ## 🧰 Toolbox
-
-<p align="center">
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Java-Dark.svg" alt="Java" title="Java" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Spring-Dark.svg" alt="Spring" title="Spring" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Python-Dark.svg" alt="Python" title="Python" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/FastAPI.svg" alt="FastAPI" title="FastAPI" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/TypeScript.svg" alt="TypeScript" title="TypeScript" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/VueJS-Dark.svg" alt="Vue" title="Vue" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/React-Dark.svg" alt="React" title="React" />
-</p>
-
-<p align="center">
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/MySQL-Dark.svg" alt="MySQL" title="MySQL" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/PostgreSQL-Dark.svg" alt="PostgreSQL" title="PostgreSQL" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Redis-Dark.svg" alt="Redis" title="Redis" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/RabbitMQ-Dark.svg" alt="RabbitMQ" title="RabbitMQ" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Docker.svg" alt="Docker" title="Docker" />
-  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Linux-Dark.svg" alt="Linux" title="Linux" />
-</p>
-
 
 **Backend** · Java · Spring Boot · Spring Cloud · MyBatis-Plus · Sa-Token · Flowable<br />
 **Data & Middleware** · MySQL · PostgreSQL · Redis · RocketMQ · RabbitMQ · Redisson · MinIO<br />
