@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,55:0F766E,100:14B8A6&height=150&section=header&text=Han%20Shenghao&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Backend%20Engineering%20%C3%97%20Agent%20Systems&descSize=16&descAlignY=68" alt="Han Shenghao — Backend Engineering × Agent Systems" />
 
 <p align="center">
-  <strong>Building reliable backend services and evaluable AI agents.</strong>
+  <img width="520" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=19&amp;pause=1800&amp;color=14B8A6&amp;center=true&amp;vCenter=true&amp;width=520&amp;height=38&amp;lines=Backend+%26+Agent+Engineering;Java+%2F+Spring+Cloud+%2F+LangGraph" alt="Backend and Agent Engineering · Java · Spring Cloud · LangGraph" />
 </p>
 
 <p align="center">
@@ -9,6 +9,7 @@
   <a href="https://github.com/Tim051216?tab=activity"><img src="https://img.shields.io/badge/Open_Source-0F766E?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open source activity" /></a>
   <img src="https://img.shields.io/badge/Nanjing%2C_China-334155?style=flat-square&logo=googlemaps&logoColor=white" alt="Nanjing, China" />
   <img src="https://img.shields.io/badge/Open_to_Internships-F59E0B?style=flat-square" alt="Open to internships" />
+  <img src="https://komarev.com/ghpvc/?username=Tim051216&amp;label=Profile%20views&amp;color=0F766E&amp;style=flat-square" alt="Profile views" />
 </p>
 
 ## Hello / 你好 👋
@@ -22,13 +23,13 @@
 | Java / Spring Cloud 微服务、异步任务与高并发链路 | 性能、可靠性、鉴权安全与可观测性 |
 | LangGraph / MCP / RAG 驱动的多 Agent 系统 | 可控执行、检索质量、自动评测与降级策略 |
 
-## Selected work
+## 🚀 Selected work
 
 ### [BiliLearn](https://github.com/Tim051216/BiliLearn) — Multi-Agent Learning Platform
 
 面向高校在线学习场景的个性化学习平台，由学习画像、知识检索与答疑、学习规划、资源生成、测评反馈五类智能体协同驱动。
 
-`LangGraph` `MCP` `RAG` `Redis` `RocketMQ` `RAGAS`
+![LangGraph](https://img.shields.io/badge/LangGraph-0F766E?style=flat-square&logo=langgraph&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-334155?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-334155?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-A91E32?style=flat-square&logo=redis&logoColor=white) ![RocketMQ](https://img.shields.io/badge/RocketMQ-9A3412?style=flat-square) ![RAGAS](https://img.shields.io/badge/RAGAS-6D28D9?style=flat-square)
 
 - 设计意图定向 + 全局向量双路召回与检索后置治理，Top-1 召回命中率提升 **28.5%**，知识检索综合准确率达到 **85%+**。
 - 构建分层意图识别、ReAct 多轮 Agent、UID 会话隔离和三层执行安全边界，意图 Top-1 准确率达到 **90%+**。
@@ -38,14 +39,14 @@
 
 覆盖微服务后端、管理后台与微信小程序的全栈餐饮系统，重点实践高并发场景下的缓存、流量治理和最终一致性。
 
-`Spring Cloud` `Redis` `RabbitMQ` `MySQL` `Docker`
+![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-3F6212?style=flat-square&logo=spring&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-A91E32?style=flat-square&logo=redis&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-9A3412?style=flat-square&logo=rabbitmq&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-155E75?style=flat-square&logo=mysql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-1D4ED8?style=flat-square&logo=docker&logoColor=white)
 
 - 使用 Redis + Lua 实现分布式令牌桶，并以 Caffeine + Redis、布隆过滤器和分布式互斥锁治理缓存问题。
 - 通过原子预扣减与 RabbitMQ 异步下单，将接口平均耗时从 **497.36 ms 降至 155.66 ms（68.7%）**，配合 ACK、幂等、重试与对账保障一致性。
 
 <p align="right"><a href="https://github.com/Tim051216?tab=repositories">Explore all projects →</a></p>
 
-## Open source, lately
+## 🌱 Open source, lately
 
 最近在 Agent 工程生态中参与 issue 讨论、代码审阅与贡献，重点关注 typed outputs、工具调用、执行可靠性和开发者体验。
 
@@ -58,7 +59,7 @@
 
 <p><a href="https://github.com/Tim051216?tab=activity">View public activity →</a></p>
 
-## Experience
+## 💼 Experience
 
 <details>
 <summary><strong>Backend Developer Intern · 苏宁易购｜苏宁云财</strong> · 2026.07 — 2026.09</summary>
@@ -81,18 +82,46 @@
 
 </details>
 
-## Toolbox
+## 🧰 Toolbox
+
+<p align="center">
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Java-Dark.svg" alt="Java" title="Java" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Spring-Dark.svg" alt="Spring" title="Spring" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Python-Dark.svg" alt="Python" title="Python" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/FastAPI.svg" alt="FastAPI" title="FastAPI" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/TypeScript.svg" alt="TypeScript" title="TypeScript" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/VueJS-Dark.svg" alt="Vue" title="Vue" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/React-Dark.svg" alt="React" title="React" />
+</p>
+
+<p align="center">
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/MySQL-Dark.svg" alt="MySQL" title="MySQL" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/PostgreSQL-Dark.svg" alt="PostgreSQL" title="PostgreSQL" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Redis-Dark.svg" alt="Redis" title="Redis" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/RabbitMQ-Dark.svg" alt="RabbitMQ" title="RabbitMQ" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Docker.svg" alt="Docker" title="Docker" />
+  <img width="40" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Linux-Dark.svg" alt="Linux" title="Linux" />
+</p>
+
 
 **Backend** · Java · Spring Boot · Spring Cloud · MyBatis-Plus · Sa-Token · Flowable<br />
 **Data & Middleware** · MySQL · PostgreSQL · Redis · RocketMQ · RabbitMQ · Redisson · MinIO<br />
 **AI Engineering** · LangChain · LangGraph · MCP · RAG · ReAct · RAGAS · Dify<br />
 **Delivery & Observability** · Linux · Docker · OpenTelemetry · Sentinel · XXL-Job
 
-## GitHub snapshot
+## 📈 GitHub snapshot
 
 <p align="center">
   <img height="155" src="https://github-readme-stats.vercel.app/api?username=Tim051216&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&title_color=0F766E&text_color=64748B&icon_color=14B8A6&bg_color=00000000" alt="Han Shenghao's GitHub stats" />
   <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tim051216&layout=compact&hide_border=true&langs_count=6&title_color=0F766E&text_color=64748B&bg_color=00000000" alt="Most used languages" />
+</p>
+
+<p align="center">
+  <img width="470" src="https://streak-stats.demolab.com?user=Tim051216&amp;theme=tokyonight&amp;hide_border=true&amp;ring=14B8A6&amp;fire=5EEAD4&amp;currStreakLabel=5EEAD4" alt="GitHub contribution streak" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Tim051216&amp;theme=github-compact&amp;bg_color=0F172A&amp;color=CBD5E1&amp;line=14B8A6&amp;point=5EEAD4&amp;hide_border=true&amp;area=true" alt="Recent GitHub contribution activity" />
 </p>
 
 ---
